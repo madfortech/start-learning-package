@@ -10,7 +10,7 @@ class StartLearningPackage
 {
 
 protected  $starts[
-    'Some people wear Superman pajamas. Superman wears Chuck Norris pajamas...',
+    'Some people wear Superman pajamas. Superman wears Chuck Norris pajamas',
     'Chuck Norris is the reason why\ Waldo is hiding'
 ];
 
