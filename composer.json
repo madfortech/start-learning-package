@@ -1,0 +1,25 @@
+{
+    "name": "madfortech/start-learning-package",
+    "description": "Learning laravel package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Madfortech\\StartLearningPackage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Madfortech\\StartLearningPackage\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "MadForCoding",
+            "email": "hnishad020@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
