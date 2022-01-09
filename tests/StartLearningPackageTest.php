@@ -1,5 +1,7 @@
 <?php
+
 namespace Madfortech\StartLearningPackage\Tests;
+
 use Madfortech\StartLearningPackage\StartLearningPackage;
 use PHPUnit\Framework\TestCase;
 
@@ -14,5 +16,5 @@ class StartLearningPackageTest extends TestCase
 
         $start = $starts->getRandomStart();
         $this->assertSame('this is, $start');
-    }   
+    }
 }
